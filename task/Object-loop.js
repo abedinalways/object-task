@@ -10,3 +10,8 @@ for(property in mobile){
     console.log(property);
   
 }
+const keys= Object.keys(mobile)
+console.log(keys);
+for(key of keys){
+    console.log(key,":" ,mobile[key])
+}
