@@ -15,3 +15,10 @@ console.log(keys);
 for(key of keys){
     console.log(key,":" ,mobile[key])
 }
+//create object and decleare
+const pen=new Object({color:'white',
+                                      price:10});
+console.log(pen)
+for(prop in pen){
+    console.log(prop)
+}
